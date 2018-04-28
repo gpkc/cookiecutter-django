@@ -30,7 +30,7 @@ Viewing the Existing Backups
 
 To list existing backups, ::
 
-    $ docker-compose -f local.yml run --rm postgres backups
+    $ docker-compose -f local.yml run --rm postgres list-backups
 
 These are the sample contents of ``/backups``: ::
 
